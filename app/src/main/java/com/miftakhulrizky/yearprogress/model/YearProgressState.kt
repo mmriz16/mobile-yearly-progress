@@ -76,8 +76,9 @@ data class MonthProgress(
                         when {
                             date.isBefore(currentDate) && isHoliday -> DayCell.Holiday
                             date.isBefore(currentDate) -> DayCell.Filled
+                            date == currentDate && isHoliday -> DayCell.Holiday
                             date == currentDate -> DayCell.Current
-                            isHoliday -> DayCell.Holiday
+                            isHoliday -> DayCell.HolidayPending
                             else -> DayCell.Pending
                         }
                     )
@@ -101,7 +102,8 @@ enum class DayCell {
     Filled,
     Current,
     Pending,
-    Holiday
+    Holiday,
+    HolidayPending
 }
 
 @Composable

@@ -19,9 +19,10 @@ private object Palette {
     const val BORDER = 0x00000000
     const val TEXT_PRIMARY = 0xFFFFFFFF.toInt()
     const val TEXT_MUTED = 0x33FFFFFF
-    const val DOT_PENDING = 0x33FFFFFF
+    const val DOT_PENDING = 0x33FFFFFF // 20% opacity white
     const val DOT_FILLED = 0xFFFFFFFF.toInt()
     const val DOT_HOLIDAY = 0xFFFD2639.toInt() // AccentRed
+    const val DOT_HOLIDAY_PENDING = 0x33FD2639 // 20% opacity AccentRed
 }
 
 class YearProgressRenderer(context: Context) {
@@ -206,6 +207,7 @@ class YearProgressRenderer(context: Context) {
                 DayCell.Pending -> Palette.DOT_PENDING
                 DayCell.Current -> accentColor
                 DayCell.Holiday -> Palette.DOT_HOLIDAY
+                DayCell.HolidayPending -> Palette.DOT_HOLIDAY_PENDING
                 DayCell.Empty -> Palette.DOT_PENDING
             }
 

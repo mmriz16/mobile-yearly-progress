@@ -8,160 +8,164 @@
 8        android:minSdkVersion="26"
 9        android:targetSdkVersion="35" />
 10
-11    <permission
-11-->[androidx.core:core:1.15.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\8bb8a3a7ca48bae1db358a872d31f1aa\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
-12        android:name="com.miftakhulrizky.yearprogress.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.15.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\8bb8a3a7ca48bae1db358a872d31f1aa\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
-13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.15.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\8bb8a3a7ca48bae1db358a872d31f1aa\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
-14
-15    <uses-permission android:name="com.miftakhulrizky.yearprogress.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.15.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\8bb8a3a7ca48bae1db358a872d31f1aa\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.15.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\8bb8a3a7ca48bae1db358a872d31f1aa\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:3:5-67
+11-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:3:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.15.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\8bb8a3a7ca48bae1db358a872d31f1aa\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+14        android:name="com.miftakhulrizky.yearprogress.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.15.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\8bb8a3a7ca48bae1db358a872d31f1aa\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.15.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\8bb8a3a7ca48bae1db358a872d31f1aa\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
 16
-17    <application
-17-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:4:5-37:19
-18        android:allowBackup="true"
-18-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:5:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.15.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\8bb8a3a7ca48bae1db358a872d31f1aa\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
-20        android:debuggable="true"
-21        android:extractNativeLibs="false"
-22        android:icon="@mipmap/ic_launcher"
-22-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:6:9-43
-23        android:label="@string/app_name"
-23-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:7:9-41
-24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:8:9-54
-25        android:supportsRtl="true"
-25-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:9:9-35
-26        android:theme="@style/Theme.YearProgressWallpaper" >
-26-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:10:9-59
-27        <activity
-27-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:12:9-21:20
-28            android:name="com.miftakhulrizky.yearprogress.MainActivity"
-28-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:13:13-41
-29            android:exported="true"
-29-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:14:13-36
-30            android:theme="@style/Theme.YearProgressWallpaper" >
-30-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:15:13-63
-31            <intent-filter>
-31-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:16:13-20:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:17:17-69
-32-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:17:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:19:17-77
-34-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:19:27-74
-35            </intent-filter>
-36        </activity>
-37
-38        <service
-38-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:23:9-36:19
-39            android:name="com.miftakhulrizky.yearprogress.wallpaper.YearProgressWallpaperService"
-39-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:24:13-67
-40            android:description="@string/wallpaper_description"
-40-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:25:13-64
-41            android:exported="true"
-41-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:26:13-36
-42            android:label="@string/live_wallpaper_name"
-42-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:27:13-56
-43            android:permission="android.permission.BIND_WALLPAPER" >
-43-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:28:13-67
-44            <intent-filter>
-44-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:29:13-31:29
-45                <action android:name="android.service.wallpaper.WallpaperService" />
-45-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:30:17-85
-45-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:30:25-82
-46            </intent-filter>
-47
-48            <meta-data
-48-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:33:13-35:67
-49                android:name="android.service.wallpaper"
-49-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:34:17-57
-50                android:resource="@xml/year_progress_wallpaper" />
-50-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:35:17-64
-51        </service>
-52
-53        <activity
-53-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\b83b68e0be7dd51aaee26fd6838caf28\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
-54            android:name="androidx.compose.ui.tooling.PreviewActivity"
-54-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\b83b68e0be7dd51aaee26fd6838caf28\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
-55            android:exported="true" />
-55-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\b83b68e0be7dd51aaee26fd6838caf28\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
-56        <activity
-56-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\c814918c48b25cb2f784143291fbd39c\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:23:9-25:39
-57            android:name="androidx.activity.ComponentActivity"
-57-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\c814918c48b25cb2f784143291fbd39c\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:24:13-63
-58            android:exported="true" />
-58-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\c814918c48b25cb2f784143291fbd39c\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:25:13-36
-59
-60        <provider
-60-->[androidx.emoji2:emoji2:1.3.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\0234fdbfadf489cdd91f803378fbedc5\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-61            android:name="androidx.startup.InitializationProvider"
-61-->[androidx.emoji2:emoji2:1.3.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\0234fdbfadf489cdd91f803378fbedc5\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-62            android:authorities="com.miftakhulrizky.yearprogress.androidx-startup"
-62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\0234fdbfadf489cdd91f803378fbedc5\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-63            android:exported="false" >
-63-->[androidx.emoji2:emoji2:1.3.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\0234fdbfadf489cdd91f803378fbedc5\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-64            <meta-data
-64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\0234fdbfadf489cdd91f803378fbedc5\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\0234fdbfadf489cdd91f803378fbedc5\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-66                android:value="androidx.startup" />
-66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\0234fdbfadf489cdd91f803378fbedc5\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-67            <meta-data
-67-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\fd898bcd0e8d4ec374e3d501e93fe159\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
-68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-68-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\fd898bcd0e8d4ec374e3d501e93fe159\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
-69                android:value="androidx.startup" />
-69-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\fd898bcd0e8d4ec374e3d501e93fe159\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
-70            <meta-data
-70-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
-71                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-71-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
-72                android:value="androidx.startup" />
-72-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
-73        </provider>
-74
-75        <receiver
-75-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
-76            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-76-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
-77            android:directBootAware="false"
-77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
-78            android:enabled="true"
-78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
-79            android:exported="true"
-79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
-80            android:permission="android.permission.DUMP" >
-80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
-81            <intent-filter>
-81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
-82                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
-82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
-83            </intent-filter>
-84            <intent-filter>
-84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
-85                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
-85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
-86            </intent-filter>
-87            <intent-filter>
-87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
-88                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
-88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
-89            </intent-filter>
-90            <intent-filter>
-90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
-91                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
-91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
-92            </intent-filter>
-93        </receiver>
-94    </application>
-95
-96</manifest>
+17    <uses-permission android:name="com.miftakhulrizky.yearprogress.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.15.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\8bb8a3a7ca48bae1db358a872d31f1aa\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.15.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\8bb8a3a7ca48bae1db358a872d31f1aa\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:5:5-38:19
+20        android:allowBackup="true"
+20-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:6:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.15.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\8bb8a3a7ca48bae1db358a872d31f1aa\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:7:9-43
+25        android:label="@string/app_name"
+25-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:8:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:9:9-54
+27        android:supportsRtl="true"
+27-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:10:9-35
+28        android:theme="@style/Theme.YearProgressWallpaper" >
+28-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:11:9-59
+29        <activity
+29-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:13:9-22:20
+30            android:name="com.miftakhulrizky.yearprogress.MainActivity"
+30-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:14:13-41
+31            android:exported="true"
+31-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:15:13-36
+32            android:theme="@style/Theme.YearProgressWallpaper" >
+32-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:16:13-63
+33            <intent-filter>
+33-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:17:13-21:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:18:17-69
+34-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:18:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:20:17-77
+36-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:20:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <service
+40-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:24:9-37:19
+41            android:name="com.miftakhulrizky.yearprogress.wallpaper.YearProgressWallpaperService"
+41-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:25:13-67
+42            android:description="@string/wallpaper_description"
+42-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:26:13-64
+43            android:exported="true"
+43-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:27:13-36
+44            android:label="@string/live_wallpaper_name"
+44-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:28:13-56
+45            android:permission="android.permission.BIND_WALLPAPER" >
+45-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:29:13-67
+46            <intent-filter>
+46-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:30:13-32:29
+47                <action android:name="android.service.wallpaper.WallpaperService" />
+47-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:31:17-85
+47-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:31:25-82
+48            </intent-filter>
+49
+50            <meta-data
+50-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:34:13-36:67
+51                android:name="android.service.wallpaper"
+51-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:35:17-57
+52                android:resource="@xml/year_progress_wallpaper" />
+52-->D:\Miftakhul-Rizky\App\mobile-year-progress\app\src\main\AndroidManifest.xml:36:17-64
+53        </service>
+54
+55        <activity
+55-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\b83b68e0be7dd51aaee26fd6838caf28\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+56            android:name="androidx.compose.ui.tooling.PreviewActivity"
+56-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\b83b68e0be7dd51aaee26fd6838caf28\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+57            android:exported="true" />
+57-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\b83b68e0be7dd51aaee26fd6838caf28\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+58        <activity
+58-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\c814918c48b25cb2f784143291fbd39c\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:23:9-25:39
+59            android:name="androidx.activity.ComponentActivity"
+59-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\c814918c48b25cb2f784143291fbd39c\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:24:13-63
+60            android:exported="true" />
+60-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\c814918c48b25cb2f784143291fbd39c\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:25:13-36
+61
+62        <provider
+62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\0234fdbfadf489cdd91f803378fbedc5\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[androidx.emoji2:emoji2:1.3.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\0234fdbfadf489cdd91f803378fbedc5\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+64            android:authorities="com.miftakhulrizky.yearprogress.androidx-startup"
+64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\0234fdbfadf489cdd91f803378fbedc5\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+65            android:exported="false" >
+65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\0234fdbfadf489cdd91f803378fbedc5\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+66            <meta-data
+66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\0234fdbfadf489cdd91f803378fbedc5\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\0234fdbfadf489cdd91f803378fbedc5\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+68                android:value="androidx.startup" />
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\0234fdbfadf489cdd91f803378fbedc5\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\fd898bcd0e8d4ec374e3d501e93fe159\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\fd898bcd0e8d4ec374e3d501e93fe159\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+71                android:value="androidx.startup" />
+71-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\fd898bcd0e8d4ec374e3d501e93fe159\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+72            <meta-data
+72-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+73-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+74                android:value="androidx.startup" />
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+75        </provider>
+76
+77        <receiver
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+78            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+79            android:directBootAware="false"
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+80            android:enabled="true"
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+81            android:exported="true"
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+82            android:permission="android.permission.DUMP" >
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+84                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+87                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+90                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+91            </intent-filter>
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+93                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\miftakhul.rizky\.gradle\caches\transforms-4\46ffc5c2563383ff37a2a930040ea762\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+94            </intent-filter>
+95        </receiver>
+96    </application>
+97
+98</manifest>
