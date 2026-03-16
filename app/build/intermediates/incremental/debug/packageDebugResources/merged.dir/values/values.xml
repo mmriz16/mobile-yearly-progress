@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Year Progress Wallpaper</string>
+    <string name="live_wallpaper_name">Year Progress Live Wallpaper</string>
+    <string name="wallpaper_description">Live wallpaper progress tahun bergaya grid minimal.</string>
+    <style name="Theme.YearProgressWallpaper" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:fontFamily">@font/ibm_plex_mono_regular</item>
+    </style>
+</resources>

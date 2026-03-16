@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Year Progress Wallpaper</string>
+    <string name="live_wallpaper_name">Year Progress Live Wallpaper</string>
+    <string name="wallpaper_description">Live wallpaper progress tahun bergaya grid minimal.</string>
+</resources>

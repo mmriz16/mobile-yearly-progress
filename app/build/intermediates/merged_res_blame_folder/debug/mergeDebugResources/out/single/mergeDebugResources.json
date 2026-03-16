@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.miftakhulrizky.yearprogress.app-debug-62:/font_ibm_plex_mono_regular.ttf.flat",
+        "source": "com.miftakhulrizky.yearprogress.app-main-64:/font/ibm_plex_mono_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\miftakhul.rizky\\.gradle\\daemon\\8.7\\com.miftakhulrizky.yearprogress.app-debug-62:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\miftakhul.rizky\\.gradle\\daemon\\8.7\\com.miftakhulrizky.yearprogress.app-main-64:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\miftakhul.rizky\\.gradle\\daemon\\8.7\\com.miftakhulrizky.yearprogress.app-debug-62:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\miftakhul.rizky\\.gradle\\daemon\\8.7\\com.miftakhulrizky.yearprogress.app-main-64:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\miftakhul.rizky\\.gradle\\daemon\\8.7\\com.miftakhulrizky.yearprogress.app-debug-62:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\miftakhul.rizky\\.gradle\\daemon\\8.7\\com.miftakhulrizky.yearprogress.app-main-64:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.miftakhulrizky.yearprogress.app-debug-62:/font_ibm_plex_mono_medium.ttf.flat",
+        "source": "com.miftakhulrizky.yearprogress.app-main-64:/font/ibm_plex_mono_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\miftakhul.rizky\\.gradle\\daemon\\8.7\\com.miftakhulrizky.yearprogress.app-debug-62:\\drawable_ic_launcher_monochrome.xml.flat",
+        "source": "C:\\Users\\miftakhul.rizky\\.gradle\\daemon\\8.7\\com.miftakhulrizky.yearprogress.app-main-64:\\drawable\\ic_launcher_monochrome.xml"
+    },
+    {
+        "merged": "C:\\Users\\miftakhul.rizky\\.gradle\\daemon\\8.7\\com.miftakhulrizky.yearprogress.app-debug-62:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\miftakhul.rizky\\.gradle\\daemon\\8.7\\com.miftakhulrizky.yearprogress.app-main-64:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\miftakhul.rizky\\.gradle\\daemon\\8.7\\com.miftakhulrizky.yearprogress.app-debug-62:\\drawable_ic_wallpaper_thumbnail.xml.flat",
+        "source": "C:\\Users\\miftakhul.rizky\\.gradle\\daemon\\8.7\\com.miftakhulrizky.yearprogress.app-main-64:\\drawable\\ic_wallpaper_thumbnail.xml"
+    },
+    {
+        "merged": "C:\\Users\\miftakhul.rizky\\.gradle\\daemon\\8.7\\com.miftakhulrizky.yearprogress.app-debug-62:\\xml_year_progress_wallpaper.xml.flat",
+        "source": "C:\\Users\\miftakhul.rizky\\.gradle\\daemon\\8.7\\com.miftakhulrizky.yearprogress.app-main-64:\\xml\\year_progress_wallpaper.xml"
+    }
+]

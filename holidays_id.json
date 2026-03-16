@@ -1,0 +1,90 @@
+{
+  "fixed_holidays": [
+    { "date": "01-01", "name": "Tahun Baru Masehi" },
+    { "date": "05-01", "name": "Hari Buruh Internasional" },
+    { "date": "06-01", "name": "Hari Lahir Pancasila" },
+    { "date": "08-17", "name": "Hari Kemerdekaan RI" },
+    { "date": "12-25", "name": "Hari Raya Natal" }
+  ],
+  "dynamic_holidays": {
+    "2024": [
+      { "date": "02-08", "name": "Isra Mikraj Nabi Muhammad SAW" },
+      { "date": "02-10", "name": "Tahun Baru Imlek 2575 Kongzili" },
+      { "date": "03-11", "name": "Hari Suci Nyepi Tahun Baru Saka 1946" },
+      { "date": "03-29", "name": "Wafat Isa Al Masih" },
+      { "date": "03-31", "name": "Hari Paskah" },
+      { "date": "04-10", "name": "Hari Raya Idul Fitri 1445 Hijriah" },
+      { "date": "04-11", "name": "Hari Raya Idul Fitri 1445 Hijriah" },
+      { "date": "05-09", "name": "Kenaikan Isa Al Masih" },
+      { "date": "05-23", "name": "Hari Raya Waisak 2568 BE" },
+      { "date": "06-17", "name": "Hari Raya Idul Adha 1445 Hijriah" },
+      { "date": "07-07", "name": "Tahun Baru Islam 1446 Hijriah" },
+      { "date": "09-16", "name": "Maulid Nabi Muhammad SAW" }
+    ],
+    "2025": [
+      { "date": "01-27", "name": "Isra Mikraj Nabi Muhammad SAW" },
+      { "date": "01-29", "name": "Tahun Baru Imlek 2576 Kongzili" },
+      { "date": "03-29", "name": "Hari Suci Nyepi Tahun Baru Saka 1947" },
+      { "date": "03-31", "name": "Hari Raya Idul Fitri 1446 Hijriah" },
+      { "date": "04-01", "name": "Hari Raya Idul Fitri 1446 Hijriah" },
+      { "date": "04-18", "name": "Wafat Yesus Kristus" },
+      { "date": "04-20", "name": "Hari Paskah" },
+      { "date": "05-12", "name": "Hari Raya Waisak 2569 BE" },
+      { "date": "05-29", "name": "Kenaikan Yesus Kristus" },
+      { "date": "06-06", "name": "Hari Raya Idul Adha 1446 Hijriah" },
+      { "date": "06-27", "name": "Tahun Baru Islam 1447 Hijriah" },
+      { "date": "09-05", "name": "Maulid Nabi Muhammad SAW" }
+    ],
+    "2026": [
+      { "date": "01-16", "name": "Isra Mikraj Nabi Muhammad SAW" },
+      { "date": "02-17", "name": "Tahun Baru Imlek 2577 Kongzili" },
+      { "date": "03-19", "name": "Hari Suci Nyepi Tahun Baru Saka 1948" },
+      { "date": "03-20", "name": "Hari Raya Idul Fitri 1447 Hijriah" },
+      { "date": "03-21", "name": "Hari Raya Idul Fitri 1447 Hijriah" },
+      { "date": "04-03", "name": "Wafat Yesus Kristus" },
+      { "date": "04-05", "name": "Hari Paskah" },
+      { "date": "05-14", "name": "Kenaikan Yesus Kristus" },
+      { "date": "05-26", "name": "Hari Raya Idul Adha 1447 Hijriah" },
+      { "date": "05-31", "name": "Hari Raya Waisak 2570 BE" },
+      { "date": "06-16", "name": "Tahun Baru Islam 1448 Hijriah" },
+      { "date": "08-25", "name": "Maulid Nabi Muhammad SAW" }
+    ]
+  },
+  "cuti_bersama": {
+    "2024": [
+      { "date": "02-09", "name": "Cuti Bersama Tahun Baru Imlek" },
+      { "date": "03-12", "name": "Cuti Bersama Hari Suci Nyepi" },
+      { "date": "04-08", "name": "Cuti Bersama Idul Fitri 1445 Hijriah" },
+      { "date": "04-09", "name": "Cuti Bersama Idul Fitri 1445 Hijriah" },
+      { "date": "04-12", "name": "Cuti Bersama Idul Fitri 1445 Hijriah" },
+      { "date": "04-15", "name": "Cuti Bersama Idul Fitri 1445 Hijriah" },
+      { "date": "05-10", "name": "Cuti Bersama Kenaikan Isa Al Masih" },
+      { "date": "05-24", "name": "Cuti Bersama Hari Raya Waisak" },
+      { "date": "06-18", "name": "Cuti Bersama Idul Adha 1445 Hijriah" },
+      { "date": "12-26", "name": "Cuti Bersama Hari Raya Natal" }
+    ],
+    "2025": [
+      { "date": "01-28", "name": "Cuti Bersama Tahun Baru Imlek 2576 Kongzili" },
+      { "date": "03-28", "name": "Cuti Bersama Hari Suci Nyepi Tahun Baru Saka 1947" },
+      { "date": "04-02", "name": "Cuti Bersama Idul Fitri 1446 Hijriah" },
+      { "date": "04-03", "name": "Cuti Bersama Idul Fitri 1446 Hijriah" },
+      { "date": "04-04", "name": "Cuti Bersama Idul Fitri 1446 Hijriah" },
+      { "date": "04-07", "name": "Cuti Bersama Idul Fitri 1446 Hijriah" },
+      { "date": "05-13", "name": "Cuti Bersama Hari Raya Waisak 2569 BE" },
+      { "date": "05-30", "name": "Cuti Bersama Kenaikan Yesus Kristus" },
+      { "date": "06-09", "name": "Cuti Bersama Idul Adha 1446 Hijriah" },
+      { "date": "12-26", "name": "Cuti Bersama Hari Raya Natal" }
+    ],
+    "2026": [
+      { "date": "02-16", "name": "Cuti Bersama Tahun Baru Imlek 2577 Kongzili" },
+      { "date": "03-18", "name": "Cuti Bersama Hari Suci Nyepi" },
+      { "date": "03-23", "name": "Cuti Bersama Idul Fitri" },
+      { "date": "03-24", "name": "Cuti Bersama Idul Fitri" },
+      { "date": "03-25", "name": "Cuti Bersama Idul Fitri" },
+      { "date": "05-15", "name": "Cuti Bersama Kenaikan Yesus Kristus" },
+      { "date": "05-25", "name": "Cuti Bersama Idul Adha" },
+      { "date": "06-01", "name": "Cuti Bersama Hari Raya Waisak" },
+      { "date": "12-24", "name": "Cuti Bersama Hari Raya Natal" }
+    ]
+  }
+}
